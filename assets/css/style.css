@@ -35,6 +35,16 @@
 	border: none;
 }
 
+.w-40 {
+	width: 40%;
+}
+
+.w-60 {
+	width: 60%;
+}
+
+/* ./utility */
+
 /* header */
 header {
 	background-color: var(--ds-primary-bg);
@@ -61,8 +71,6 @@ header {
 
 
 	.content {
-		width: 50%;
-		margin: auto;
 		text-align: center;
 
 		h2 {
@@ -85,3 +93,19 @@ header {
 }
 
 /* ./jumbotron */
+
+/* invite_only */
+.invite_only {
+	padding: 1rem;
+	align-items: center;
+	justify-content: center;
+	min-height: 35rem;
+
+	.container {
+		align-items: center;
+		width: 80%;
+	}
+
+}
+
+/* ./invite_only */
