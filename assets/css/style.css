@@ -51,6 +51,11 @@ header {
 	padding: 1rem;
 	color: var(--ds-light);
 
+	a {
+		padding: 0.5rem;
+		text-decoration: none;
+	}
+
 	.login {
 		color: var(--ds-dark);
 	}
@@ -92,14 +97,14 @@ header {
 	}
 }
 
-/* ./jumbotron */
+
 
 /* invite_only */
 .invite_only {
 	padding: 1rem;
 	align-items: center;
 	justify-content: center;
-	min-height: 35rem;
+
 
 	.container {
 		align-items: center;
@@ -108,4 +113,30 @@ header {
 
 }
 
-/* ./invite_only */
+/* community */
+.community {
+	padding: 1rem;
+	align-items: center;
+	justify-content: center;
+
+
+	.container {
+		align-items: center;
+		width: 80%;
+	}
+
+}
+
+/* fandom */
+.fandom {
+	padding: 1rem;
+	align-items: center;
+	justify-content: center;
+
+
+	.container {
+		align-items: center;
+		width: 80%;
+	}
+
+}
