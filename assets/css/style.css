@@ -35,6 +35,10 @@
 	border: none;
 }
 
+.w-25 {
+	width: 25%;
+}
+
 .w-40 {
 	width: 40%;
 }
@@ -143,4 +147,23 @@ header {
 		width: 80%;
 	}
 
+}
+
+
+footer {
+	justify-content: center;
+	background-color: var(--ds-dark);
+	color: var(--ds-light);
+
+	.w-40 {
+		flex-basis: 40%;
+	}
+
+	.w-60 {
+		flex-basis: 60%;
+
+		ul {
+			width: 25%;
+		}
+	}
 }
